@@ -22,6 +22,6 @@ steps:
 
 - task: PublishPipelineArtifact@1
   inputs:
-    targetPath: '$(Pipeline.Workspace)/public' 
+    targetPath: '$(System.DefaultWorkingDirectory)/public'
     artifactName: 'public-site'
   displayName: 'Publish public site artifact'
