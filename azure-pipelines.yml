@@ -25,3 +25,12 @@ steps:
     targetPath: '$(System.DefaultWorkingDirectory)/public'
     artifactName: 'public-site'
   displayName: 'Publish public site artifact'
+
+- task: S3Upload@1
+  inputs:
+    awsCredentials: 'AWS S3 Service Connector'
+    regionName: 'eu-west-2'
+    bucketName: 'jonathan.fung.dev'
+    sourceFolder: '$(System.DefaultWorkingDirectory)/public'
+    globExpressions: '**'
+    filesAcl: 'bucket-owner-read'
