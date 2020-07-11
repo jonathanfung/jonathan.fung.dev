@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    align-items: center;
+    min-height: 75vh;
+    justify-content: right;
+    padding-right: 20%;
+}
+
+.center-center {
+    font-family: 'Poiret One', cursive;
+    font-size: 36px;
+    flex: none;
+    max-width: 50%;
+    border-left: 3px solid black;
+    padding-left: 25px;
+}

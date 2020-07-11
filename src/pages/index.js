@@ -1,15 +1,22 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Helmet } from "react-helmet"
 
-import Header from "../components/header"
+import indexStyles from "./index.module.css"
 
 export default function Home() {
   return (
-    <div style={{ color: `purple` }}>
-      <Link to="/contact/">Contact</Link>
-      <Header headerText="Hello Gatsby!" />
-      <p>It's Jay to you</p>
-      <img src="https://source.unsplash.com/random/400x200" alt="" />
+    <div>
+      <Helmet title="Jonathan Fung | Developer">
+        <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet"></link>
+      </Helmet>
+
+      <div>
+        <div className={indexStyles.container}>
+          <div className={indexStyles.centerCenter}>Only in extraordinary times can we be extraordinary people</div>
+        </div>
+
+        <div style={{ textAlign: "center", marginTop: "20px", fontFamily: "'Poiret One', cursive", fontSize: "24px" }}>Coming soon!</div>
+      </div>
     </div>
   )
 }
