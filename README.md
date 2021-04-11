@@ -1,11 +1,4 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  jonathan.fung.dev
-</h1>
+# jonathan.fung.dev
 
 This repo hosts the code for my personal website at [jonathan.fung.dev](https://jonathan.fung.dev), which is built using [Gatsby](https://www.gatsbyjs.org).
 
@@ -17,19 +10,19 @@ This repo hosts the code for my personal website at [jonathan.fung.dev](https://
 
    ```shell
    git clone
-   npm install
+   yarn install
    ```
 
-1)  **Start developing.**
+2.  **Spin up the dev server**
 
     ```shell
     cd jonathan.fung.dev/
     gatsby develop
     ```
 
-1)  **Open the source code and start editing!**
+3.  **Open the source code and start editing**
 
-    Your site is now running at `http://localhost:8000`!
+    The site is now running at `http://localhost:8000`!
 
     _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
 

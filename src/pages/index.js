@@ -1,7 +1,7 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 
-import indexStyles from "./index.module.css"
+import { container, centerCenter } from "./index.module.css"
 
 export default function Home() {
   return (
@@ -11,8 +11,8 @@ export default function Home() {
       </Helmet>
 
       <div>
-        <div className={indexStyles.container}>
-          <div className={indexStyles.centerCenter}>Only in extraordinary times can we be extraordinary people</div>
+        <div className={container}>
+          <div className={centerCenter}>Only in extraordinary times can we be extraordinary people</div>
         </div>
 
         <div style={{ textAlign: "center", marginTop: "20px", fontFamily: "'Poiret One', cursive", fontSize: "24px" }}>Coming soon!</div>
