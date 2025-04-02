@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+#app {
+  padding: 24px;
+}
